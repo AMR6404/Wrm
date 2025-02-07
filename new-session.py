@@ -31,13 +31,10 @@ print('''
 choice = input("\033[93mDo You Want to Install All Packages [y/n] : ")
 if choice == 'n' : sys.exit()
 if choice == 'y' : os.system ("apt update -y && apt upgrade -y")
-os.system ("termux-setup-storage")
-os.system ("apt install python -y")
-os.system ("apt install python2 -y")
-os.system ("apt install wget -y")
-os.system ("apt install clang -y")
-os.system ("apt update")
-os.system ("apt upgrade")
-os.system ("curl -fsSL https://ollama.com/install.sh | sh")
-os.system ("ollama serve")
-os.system ("ls")
+os.system ("pd sh debian")
+os.system ("ollama list")
+# wormgpt api key zfhudhivc-hiirdkmm4784;fiivmprs_ho64
+os.system ("ollama pull tinyllama")
+os.system ("ollama run tinyllama")
+
+
