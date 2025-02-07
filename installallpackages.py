@@ -1,7 +1,7 @@
 import time
 import os
 import sys
-import colorama
+# import colorama
 
 def sekilliprint(s):
     for c in s + '\n' :
