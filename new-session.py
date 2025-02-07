@@ -35,7 +35,7 @@ if choice == 'y' : os.system ("apt update -y && apt upgrade -y")
 os.system ("pd sh debian")
 os.system ("ollama list")
 # wormgpt api key zfhudhivc-hiirdkmm4784;fiivmprs_ho64
-os.system ("ollama pull tinyllama")
-os.system ("ollama run tinyllama")
+os.system ("ollama pull llama2-uncensored")
+os.system ("ollama run llama2-uncensored")
 
 
